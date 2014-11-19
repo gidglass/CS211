@@ -1,0 +1,17 @@
+Assignment 10
+
+The output from the given program is:
+
+24 // refers to the size of the whole array, which is 3*2*4, “row”*“column”*(size of int type) = 24
+
+8 // refers to the size of the pointer, namely 8 bytes (or 4 depending on computer)
+
+8 // refers to the size of one row of the array, namely 2 columns and 8 bytes
+
+The address of b is: 0x7fffea7ef430 // denotes starting address of the array 
+
+The address of b+1 is: 0x7fffea7ef438 // refers to address of next row 8 bytes away
+
+The address of &b is: 0x7fffea7ef430 // same as original address of array
+
+The address of &b+1 is: 0x7fffea7ef448 // gives the location after the entire array
